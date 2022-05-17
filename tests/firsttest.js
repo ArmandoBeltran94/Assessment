@@ -3,7 +3,7 @@ import { getDevices, updateDevice, deleteDevice, createDevice} from './requests'
 
 fixture`Assessment Automation`
 	.page('http://192.168.1.72:3001/')
-	// .page('http://localhost:3001/')
+	
 // variables constants
 const newType = 'MAC'			//device type to add
 const newCapacity = '800'		//devide capacity to add
